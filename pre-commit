@@ -8,6 +8,6 @@ if [ $RESULT -ne 0 ]; then
     printf "Failed \n$CMD."
     exit 1
 fi
-printf "No issues found."
+printf "No issues found.\n"
 
 exit 0
