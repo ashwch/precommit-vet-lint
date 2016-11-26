@@ -14,7 +14,7 @@ go get -u github.com/ashwch/precommit-vet-lint
 ### Usage
 ---
 
-Copy the contents of pre-commit file included with this repo in your `.git/hooks/pre-commit` file. Make sure the file as executable permissions.
+Copy the contents of pre-commit file included with this repo in your `.git/hooks/pre-commit` file. Make sure the file has executable permissions.
 
 
 ### Example
