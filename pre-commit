@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "Running Golint and Vet..."
-CMD=$("precommit-vet-lint")
+printf "Running Golint and Vet...\n"
+CMD=$("$precommit-vet-lint")
 
 RESULT=$?
 if [ $RESULT -ne 0 ]; then
-    echo "Failed $CMD."
+    printf "Failed \n$CMD."
     exit 1
 fi
-echo "No issues found."
+printf "No issues found."
 
 exit 0
