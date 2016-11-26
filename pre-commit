@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Running Golint and Vet..."
+CMD=$("precommit-vet-lint")
+
+RESULT=$?
+if [ $RESULT -ne 0 ]; then
+    echo "Failed $CMD."
+    exit 1
+fi
+echo "No issues found."
+
+exit 0
