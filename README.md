@@ -8,7 +8,7 @@ A precommit hook that runs on your staged Go file and reports errors returned by
 
 ```bash
 go get -u github.com/golang/lint/golint
-go get -u github.com/ashwch/pre-commit-vet-lint
+go get -u github.com/ashwch/precommit-vet-lint
 ```
 
 ### Usage
